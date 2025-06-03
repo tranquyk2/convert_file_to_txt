@@ -97,3 +97,8 @@ if __name__ == "__main__":
             print("Thư mục không hợp lệ!")
     else:  # Chạy GUI
         create_main_window()
+
+
+     ## Lưu ý: Đảm bảo rằng bạn đã cài đặt các thư viện cần thiết:
+        # pip install PyPDF2 Pillow pytesseract python-docx pandas chardet
+        # Cài đặt Tesseract OCR và đặt đường dẫn đúng trong pytesseract.pytesseract.tesseract_cmd   
